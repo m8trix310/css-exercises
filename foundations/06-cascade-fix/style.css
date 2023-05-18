@@ -2,41 +2,58 @@ body{
   font-family:Arial, Helvetica, sans-serif
 }
 
+/* moved .para between the  small para and p para small-para along weith adding p to small para*/
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  font-size: 14px;
+}
+.para {
+  font-size: 28px;
 }
 
-.small-para {
+p.small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
 
-.confirm {
+
+#confirm-button,.confirm {
   background: green;
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
+  border: 1px solid black;
+  padding: 5px;
+ 
 } 
 
+#cancel-button,.cancel{
+  border: 1px solid black;
+  padding: 5px;
+} 
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-weight: 100;
+  font-weight: lighter;
+
+}
+
+
+
+div.child {
+
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
