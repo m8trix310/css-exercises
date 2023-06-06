@@ -70,9 +70,9 @@ a {
 }
 
 .container {
+  flex-wrap: wrap; 
   padding: 32px;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .card {
